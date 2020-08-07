@@ -1,0 +1,21 @@
+
+# Simple spring boot service for creating a docker image
+
+# Pre requ -> Should have docker installed in your env.
+
+
+
+# Run this command for creating a docker image.
+
+docker build -f DockerFile -t product .
+
+# Run this command for running above docker image in your docker environment
+
+docker run -p 8080:8080 product
+
+
+# Test it in your browser
+
+http://localhost:8080/products
+http://localhost:8080/products/abcd
+
