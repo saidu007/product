@@ -28,5 +28,5 @@ spec:
     bb: web
   ports:
   - port: 8080
-    targetPort: 8080
+    targetPort: 8081
     nodePort: 30001
