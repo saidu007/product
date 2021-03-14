@@ -17,14 +17,14 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
-      <!--Demo on github webhook-->
-     <!--Demo on github webhook-->
-	<!--Demo on github webhook-->
+     
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		
+	<!--Demo on github webhook-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
